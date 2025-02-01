@@ -122,4 +122,4 @@ This project is licensed under the Apache License - see the [LICENSE](LICENSE) f
 
 ## Contributions
 
-Any improvements, contributions, or ideas are always welcome! Feel free to open an issue or submit a pull request. For any questions or inquiries, please contact [ysatyasai.dev@gmail.com](mailto:ysatyasai.dev@gmail.com).
+Any improvements, contributions, or ideas are always welcome! Feel free to open an issue or submit a pull request. For any questions or inquiries, please contact [ysathyasai.dev@gmail.com](mailto:ysathyasai.dev@gmail.com).
