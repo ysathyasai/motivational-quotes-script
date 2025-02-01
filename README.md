@@ -30,7 +30,7 @@ pip install requests colorama
 1. **Clone the Repository**:
 
     ```sh
-    git clone https://github.com/yourusername/motivational-quotes-script.git
+    git clone https://github.com/ysathyasai/motivational-quotes-script.git
     ```
 
 2. **Navigate to the Directory**:
