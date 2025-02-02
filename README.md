@@ -120,6 +120,9 @@ Help_quote
 
 This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
 
+# Working
+It functions well on Termux and Windows systems, but has some issues needed to be solved on Linux and Mac systems.
+
 ## Contributions
 
-Any improvements, contributions, or ideas are always welcome! Feel free to open an issue or submit a pull request. For any questions or inquiries, please contact [ysathyasai.dev@gmail.com](mailto:ysathyasai.dev@gmail.com).
+Any improvements, corrections, contributions, or ideas are always welcome! Feel free to open an issue or submit a pull request. For any questions or inquiries, please contact [ysathyasai.dev@gmail.com](mailto:ysathyasai.dev@gmail.com).
