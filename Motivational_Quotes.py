@@ -43,7 +43,7 @@ def move_file(src, dst):
     """
     Move a file from src to dst if it exists at src and does not exist at dst.
     """
-    if os.path.exists(src) and not os.path.exists(dst):  # Check if the source file exists and destination doesn't
+    if os.path.exists(src) and not os.path.exists(dst):  # Check if the source file exists and the destination doesn't
         import shutil  # Import shutil for file operations
         shutil.move(src, dst)  # Move the file
 
@@ -224,11 +224,12 @@ function quote() {{ python3 "{SCRIPT_PATH}" display_quote; }}
 function Help_quote() {{ python3 "{SCRIPT_PATH}" show_help; }}
 function addtoquotes() {{ python3 "{SCRIPT_PATH}" add_quote "$1"; }}
 '''
-    with open(SHELL_CONFIG_PATH, "r+", encoding="utf-8") as shell_config:
-        content = shell_config.read()
-        if shell_config_entry not in content:
-            shell_config.write(shell_config_entry)
-            shell_config.write(function_definitions)
+    with open(SHELL_CONFIG_PATH, "a+", encoding="utf-8") as shell_config:  # Open the file in append mode
+        shell_config.seek(0)  # Move the file pointer to the beginning of the file
+        content = shell_config.read()  # Read the content of the file
+        if shell_config_entry not in content:  # Check if the entry is not already present
+            shell_config.write(shell_config_entry)  # Write the shell config entry
+            shell_config.write(function_definitions)  # Write the function definitions
 
 def check_if_setup_done():
     """
