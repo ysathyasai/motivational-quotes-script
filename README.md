@@ -120,7 +120,7 @@ Help_quote
 
 This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
 
-# Working
+### Working
 It functions well on Termux and Windows systems, but has some issues needed to be solved on Linux and Mac systems.
 
 ## Contributions
